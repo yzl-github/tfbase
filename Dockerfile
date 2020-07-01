@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.11.0-gpu-py3
+FROM tensorflow/tensorflow:1.13.1-gpu-py3
 ENV LANG C.UTF-8
 WORKDIR /home
 RUN apt-get update
